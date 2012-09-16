@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title><?= isset($title) && $title != "" ? $title . " - " : "" ?>David Rhoderick</title>
+	<title><?= isset($title) && $title != "" ? $title . " - " : "" ?>David poopoopants</title>
 	
 	<meta name="author" content="David Rhoderick" />
 	<meta name="distribution" content="global" />
@@ -78,7 +78,7 @@
 	
 	<header class="main">
 		<div class="frame cfx">
-			<h1><a href="/" class="logo">Open Air Publishing</a></h1>
+			<h1><a href="/" class="logo">David Rhoderick</a></h1>
 			<nav>
 				<a href="/">Home/About</a>
 				<a href="/books">Pieces</a>
