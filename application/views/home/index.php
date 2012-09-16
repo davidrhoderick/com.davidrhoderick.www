@@ -4,7 +4,7 @@
 	<div class="frame cfx">
 
 		<section class="left_column">
-			<?= $this->load->view('modules/about'); ?>
+			<?= $this->load->view('modules/about'); ?> <!-- Why isn't this displaying -->
 			<?= $this->load->view('modules/pieces'); ?>
 		</section>
 		<section class="sidebar">
