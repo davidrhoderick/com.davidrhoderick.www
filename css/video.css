@@ -1,0 +1,47 @@
+.video .book_details, .picture .book_details {
+	background: #eee; 
+	padding: 20px; 
+	margin: 30px -20px;
+}
+
+.video .book_media, .picture .book_media {
+	float: none;
+}
+
+.video .book_promo, .picture .book_promo {
+	background: #fff;
+}
+
+.share_notice {
+	background: #8CC63F;
+	color: #fff;
+	padding: 32px 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	border-bottom: 1000px solid #fff;
+}
+
+.share_notice h1{
+	width: 960px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.box_arrow {
+	background: url(/images/arrow_box_white_30.png) no-repeat;
+	display: inline-block;
+}
+
+.box_arrow.up {
+	background-position: 50% 0;
+	padding: 15px 0 0;
+}
+
+.box_arrow span {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #fff;
+	color: #8CC63F;
+	border-radius: 5px;
+}

@@ -1,0 +1,150 @@
+/* Promo */
+.promo {
+	height: 350px;
+	background: #e6e9ec; 	
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#d6e3c7), color-stop(10%, #e5f2d5), color-stop(90%, #e5f2d5), to(#d6e3c7));
+	background-image: -webkit-linear-gradient(center top, #d6e3c7, #e5f2d5 10%, #e5f2d5 90%, #d6e3c7);
+	background-image:    -moz-linear-gradient(center top, #d6e3c7, #e5f2d5 10%, #e5f2d5 90%, #d6e3c7);
+	background-image:     -ms-linear-gradient(center top, #d6e3c7, #e5f2d5 10%, #e5f2d5 90%, #d6e3c7);
+	background-image:      -o-linear-gradient(center top, #d6e3c7, #e5f2d5 10%, #e5f2d5 90%, #d6e3c7);
+	border-top: 1px solid #8cc63f;
+	border-bottom: 1px solid #8cc63f;
+}
+
+.promo .slide {
+	padding: 20px;
+}
+
+.promo h1 { padding-right: 30px; }
+.promo p { padding-right: 30px; }
+
+.promo_media {
+	float: left;
+	margin: 0 20px 20px 0;
+	background: #fff;
+}
+
+.promo .action_links {
+	float: left;
+	margin-right: 10px;
+	width: 180px;
+}
+
+.promo a small {
+	display: block;
+	margin: 5px;
+	color: #333;
+	font-size: 11px;
+	text-indent: 32px;
+}
+
+#promo_food52 {
+	background: #1f1a21 url('../images/food52/promo_food52_bg.jpg') no-repeat;
+	color: #fff;
+}
+
+#promo_food52 p { color: #eee; line-height: 20px; }
+
+#promo_food52 .more:link, #promo_food52 .more:visited {
+	background-color: #adaf7c;
+	border-color: #fff;
+}
+
+#promo_food52 .more:hover, #promo_food52 .more:active {
+	background-color: #fff;
+	color: #000000;
+}
+
+#promo_food52 a small {
+	color: #fff;
+}
+
+/* Slides */
+
+#slides {
+	position:relative;
+	z-index:100;
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:100%;
+	height: 340px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container .slide {
+	width:960px;
+	height:340px;
+	display:block;
+	margin: 0 auto;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	bottom:10px;
+	left:20px;
+	width:19px;
+	height:19px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:119px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	position: absolute;
+	width: 76px;
+	bottom: 14px;
+	left: 43px;
+	z-index: 101;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(/images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}

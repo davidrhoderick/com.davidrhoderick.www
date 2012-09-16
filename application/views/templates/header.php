@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title><?= isset($title) && $title != "" ? $title . " - " : "" ?>David poopoopants</title>
+	<title><?= isset($title) && $title != "" ? $title . " - " : "" ?>David Rhoderick</title>
 	
 	<meta name="author" content="David Rhoderick" />
 	<meta name="distribution" content="global" />
