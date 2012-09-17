@@ -39,6 +39,8 @@
 */
 
 $route['default_controller'] = "home";
+$route['pieces'] = 'pieces/index';
+$route['contact'] = 'contact/index';
 $route['404_override'] = '';
 
 
