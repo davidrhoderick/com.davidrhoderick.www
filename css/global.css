@@ -47,8 +47,8 @@ footer {
 }
 
 nav {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 nav a {
@@ -67,9 +67,10 @@ a:hover {
 
 hr {
 	border: 0px;
-	color: #444444;
+	color: #333;
 	background-color: #444444;
 	height: 1px;
 	width: 100%;
+	margin-top: 8px;
 	
 }
