@@ -2,7 +2,8 @@
 <head>
 	<title><?= isset($title) && $title != "" ? $title . " - " : "" ?>David Rhoderick</title>
 	
-	<link href="/css/global.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css"
+     href="/css/global.css" title="Default Styles" media="screen">
 </head>
 
 <body>
