@@ -1,5 +1,3 @@
-<!-- <?= $this->load->view('home/promo'); ?> -->
-
 <section>
 	<div>
 
