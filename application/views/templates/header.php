@@ -6,8 +6,8 @@
 <body>
 	
 	<header>
-		<div class="frame cfx">
-			<h1><a href="/">David Rhoderick</a></h1>
+		<div>
+			<h1>David Rhoderick</h1>
 			<nav>
 				<a href="/">Home/About</a>
 				<a href="/books">Pieces</a>
