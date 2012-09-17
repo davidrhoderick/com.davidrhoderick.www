@@ -10,8 +10,8 @@
 			<h1>David Rhoderick</h1>
 			<nav>
 				<a href="/">Home/About</a>
-				<a href="/books">Pieces</a>
-				<a href="/about">Contact</a>
+				<a href="/pieces">Pieces</a>
+				<a href="/contact">Contact</a>
 			</nav>
 		</div>
 	</header>
