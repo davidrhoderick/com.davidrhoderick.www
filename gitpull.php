@@ -1,3 +1,3 @@
 <?php
-	echo "is this how it works?";
+	echo `ls`;
 ?>
