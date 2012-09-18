@@ -1,6 +1,8 @@
 <?php 
 	error_reporting(0);
 	
+	echo "here it is!";
+		
 	$payload = json_decode(stripslashes(@$_POST['payload']));
 	$message = print_r(@$payload,true);
 	//$message .= shell_exec('/usr/bin/git pull');
