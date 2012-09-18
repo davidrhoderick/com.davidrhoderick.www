@@ -1,3 +1,4 @@
 <?php
-	echo `mkdir itworked`;
+	$output = `mkdir itworked`;
+	echo "<pre$output</pre>";
 ?>
