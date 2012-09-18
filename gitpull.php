@@ -1,4 +1,4 @@
 <?php
-	`cd public_html/com.davidrhoderick.www/`
-	`git pull`;
+	echo "<pre>" . `cd public_html/com.davidrhoderick.www/` . "</pre>";
+	echo "<pre>" . `git pull` . "</pre>";
 ?>
