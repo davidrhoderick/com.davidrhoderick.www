@@ -16,7 +16,7 @@
 	if ($payload->ref === 'refs/heads/master')
 	{
 			// Log the payload object
-			@file_put_contents('logs/github.txt', print_r($payload, TRUE), FILE_APPEND);
+			//@file_put_contents('logs/github.txt', print_r($payload, TRUE), FILE_APPEND);
 
 			// Prep the URL - replace https protocol with git protocol to prevent 'update-server-info' errors
 			$url = str_replace('https://', 'git://', $payload->repository->url);
