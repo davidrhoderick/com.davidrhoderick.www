@@ -3,7 +3,7 @@
 	<title><?= isset($title) && $title != "" ? $title . " - " : "" ?>David Rhoderick</title>
 	
 	<link rel="stylesheet" type="text/css"
-     href="/css/global.css" title="Default Styles" media="screen">
+     href="/com.davidrhoderick.www/css/global.css" title="Default Styles" media="screen">
 </head>
 
 <body>
