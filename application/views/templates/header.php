@@ -13,8 +13,9 @@
 			<h1>David Rhoderick</h1>
 			<hr />
 			<nav>
-				<a href="/">Home/About</a>
+				<a href="/">Home&&About</a>
 				<a href="/pieces">Pieces</a>
+				<a href="/music">Music</a>
 				<a href="/contact">Contact</a>
 			</nav>
 		</div>
