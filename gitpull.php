@@ -23,5 +23,6 @@
 
 			// Run the build script as a background process
 			`git pull`;
+			echo "done!";
 	}
 ?>
