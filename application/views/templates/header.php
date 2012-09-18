@@ -10,7 +10,7 @@
 	
 	<header>
 		<div>
-			<h1>David Rhoderick - nothing</h1>
+			<h1>David Rhoderick</h1>
 			<hr />
 			<nav>
 				<a href="/">Home&&About</a>
