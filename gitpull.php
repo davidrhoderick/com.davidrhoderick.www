@@ -1,3 +1,3 @@
 <?php
-	echo `ls`;
+	echo `mkdir itworked`;
 ?>
