@@ -1,6 +1,8 @@
 <?php 
 	// Turn off error reporting
 	error_reporting(0);
+	
+	echo "done!";
 
 	try
 	{
@@ -23,6 +25,6 @@
 
 			// Run the build script as a background process
 			`git pull`;
-			echo "done!";
+			
 	}
 ?>
