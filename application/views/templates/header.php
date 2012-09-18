@@ -10,7 +10,7 @@
 	
 	<header>
 		<div>
-			<h1>David Rhoderick - if it worked, this text shouldn't be here</h1>
+			<h1>David Rhoderick - nothing</h1>
 			<hr />
 			<nav>
 				<a href="/">Home&&About</a>
