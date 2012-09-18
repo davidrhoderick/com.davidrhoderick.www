@@ -1,9 +1,13 @@
 <?php 
-	// Turn off error reporting
 	error_reporting(0);
 	
-	echo "done!";
-
+	$payload = json_decode(stripslashes(@$_POST['payload']));
+	$message = print_r(@$payload,true);
+	//$message .= shell_exec('/usr/bin/git pull');
+	mail('broken.stairs@gmail.com','gihub post receive hook fired',$message);
+	echo $message;
+	exit;
+/*
 	try
 	{
 			// Decode the payload json string
@@ -17,6 +21,7 @@
 	// Pushed to master?
 	if ($payload->ref === 'refs/heads/master')
 	{
+			echo "pushed to master?";
 			// Log the payload object
 			//@file_put_contents('logs/github.txt', print_r($payload, TRUE), FILE_APPEND);
 
@@ -26,5 +31,5 @@
 			// Run the build script as a background process
 			`git pull`;
 			
-	}
+	}*/
 ?>
