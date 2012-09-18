@@ -10,7 +10,7 @@
 	
 	<header>
 		<div>
-			<h1>David Rhoderick - this is the last test of post receive hook</h1>
+			<h1>David Rhoderick</h1>
 			<hr />
 			<nav>
 				<a href="/">Home&&About</a>
