@@ -10,7 +10,7 @@
 	
 	<header>
 		<div>
-			<h1>perhaps i shouldn't be nicer</h1>
+			<h1>here's a good go</h1>
 			<hr />
 			<nav>
 				<a href="/">Home&&About</a>
