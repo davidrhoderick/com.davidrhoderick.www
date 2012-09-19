@@ -1,5 +1,7 @@
 	<footer>
 	
+		<hr />
+	
 		<h4>Learn about what's coming up next</h4>
 		
 		<form class="mailing" method="post" id="subForm">

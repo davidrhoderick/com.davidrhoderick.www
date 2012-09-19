@@ -11,6 +11,7 @@ p {
 	margin: 0 33% 0 33%;
 	text-align: justify;
 	color: #333;
+	padding: 6px 0 22px 0;
 }
 
 h1 {
@@ -35,6 +36,7 @@ h4 {
 	color: #222;
 	font-size: 12px;
 	letter-spacing: 2px;
+	margin-top: 2px;
 }
 
 small {
@@ -46,8 +48,12 @@ footer {
 }
 
 nav {
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 0px;
+	padding-bottom: 16px;
+}
+
+hr {
+	margin-bottom: 0;
 }
 
 nav a {
@@ -68,6 +74,7 @@ hr {
 	border: 0px;
 	color: #333;
 	background-color: #444444;
+/*	background: url(assets/hr1.png) repeat scroll center;	*/
 	height: 1px;
 	width: 100%;
 	margin-top: 8px;
