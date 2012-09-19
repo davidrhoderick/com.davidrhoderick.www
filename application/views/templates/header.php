@@ -3,7 +3,6 @@
 		<title><?= isset($title) && $title != "" ? $title . " - " : "" ?>David Rhoderick</title>
 
 		<link rel="stylesheet" type="text/css" href="/com.davidrhoderick.www/css/global.css" title="Default Styles" media="screen">		
-		<link href="/com.davidrhoderick.www/css/jplayer.css" rel="stylesheet" type="text/css" />
 		<link href="/com.davidrhoderick.www/skin/jplayer.pink.flag.css" rel="stylesheet" type="text/css" />
 	
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
@@ -16,7 +15,7 @@
 					ready: function (event) {
 			
 						$(this).jPlayer("setMedia", {
-							mp3: "http://www.davidrhoderick.com/com.davidrhoderick.www/audio/a_dusty_collection/01_out_of_order.mp3"
+							mp3: "http://www.davidrhoderick.com/com.davidrhoderick.www/audio/electrolyghts/03_take_it_leave_it.mp3"
 						});
 			
 					},
@@ -30,7 +29,7 @@
 				});
 			
 			});
-		</script>
+		</script>	
 	</head>
 	
 	<body>
