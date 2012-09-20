@@ -1,4 +1,4 @@
-<h2>Latest track...</h2>
+<h2>Latest track</h2>
 
 <div id="jp_latest_track" class="jp-jplayer"></div>
 
