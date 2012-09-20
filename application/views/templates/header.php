@@ -42,7 +42,7 @@
 					<a href="/work">Work</a>
 					<a href="/music">Music</a>
 					<a href="/contact">Contact</a>
-					<a href="http://www.davidrhoderick.tumblr.com">Blog</a>
+					<a href="http://www.davidrhoderick.tumblr.com" target="_blank">Blog</a>
 				</nav>
 			</div>
 		</header>
