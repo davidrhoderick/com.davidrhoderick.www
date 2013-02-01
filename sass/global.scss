@@ -3,40 +3,55 @@ body {
 	text-align: center;
 	
 	padding: {
-		left: 24%;
-		right: 24%;
+		left: 15%;
+		right: 15%;
 	}
 }
 
 h1 {
 	font-family: Helvetica, sans-serif;
 	font-size: 36px;
-	.main_title {
-		color: #345;
-		font-size: 48px;
-		text-transform: uppercase;
-		text-align: center;
-		letter-spacing: 12px;
-		font-family: Helvetica, sans-serif, Arial;
-		font-style: italic;	
-	}
 	font-style: italic;
 	text-shadow: 2.5px 2.5px #bbb;
 	letter-spacing: 8px;
+	color: #234;
 	
 }
 
+.nav_bar {
+	letter-spacing: 12px;
+	font-family: Helvetica, sans-serif;
+	font-style: light;
+	a {
+		text-decoration: none;
+		color: #e3e;
+		&:hover {
+			color: #3ff;
+		}
+	}
+}
+
+/* main title*/
+
 .main_title {
-	
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 12px;
+	font-family: Helvetica, sans-serif, Arial;
+	font-style: italic;
+}
+
+.welcome_message {
+	font-style: italic;
+	text-shadow: 1px 1px #bbb;
+	font-size: 22px;
+	letter-spacing: 2px;
 }
 
 p {
 	font-family: Arial, sans-serif;
-	.welcome_message {
-		font-style: italic;
-		text-shadow: 1px 1px #bbb;
-	}
-	font-size: 16px;
+	font-size: 15px;
 }
 
 small {
