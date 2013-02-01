@@ -10,6 +10,7 @@
 		<script>
 		$(function(){
 			$("#header").hide( 0 );
+			$(".nav_bar").hide( 0 );
 			$("#main").hide( 0 );
 			$("#footer").hide( 0 );
 			
@@ -17,50 +18,46 @@
 				$("#main").load("pages/welcome.html div", function() {
 					$("#footer").load("templates/footer.html div", function() {
 					
-						$("#header").fadeIn("slow", function() {
-							$("#main").fadeIn("slow", function() {
-								$("#footer").fadeIn("slow");
+						$("#header").fadeIn( "slow", function() {
+							$(".nav_bar").fadeIn( function() {
+								$("#main").fadeIn( function() {
+									$("#footer").fadeIn();
+								});
 							});
 						});
 						
 					});
 				});
 			});
-			/*
+			
 			$("#home").click( function() {
-				$("#main").empty( function() {
-					$("#main").load("pages/welcome.html div");
-				});
+				$("#main").load("pages/welcome.html div");
 			});
 			
 			$("#works").click( function() {
-				$("#main").empty( function() {
-					$("#main").load("pages/works.html div");
-				});
+				$("#main").load("pages/works.html div");
 			});
 			
 			$("#media").click( function() {
-				$("#main").empty( function() {
-					$("#main").load("pages/media.html div");
-				});
+				$("#main").load("pages/media.html div");
 			});
 			
 			$("#bio").click( function() {
-				$("#main").empty( function() {
-					$("#main").load("pages/bio.html div");
-				});
+				$("#main").load("pages/bio.html div");
 			});
 			
 			$("#contact").click( function() {
-				$("#main").empty( function() {
-					$("#main").load("pages/contact.html div");
-				});
-			});*/
+				$("#main").load("pages/contact.html div");
+			});
 		});
 		</script>
 	</head>
 	<body>
 		<div id="header"></div>
+		
+		<div class="nav_bar">
+			<h2><span id="home">home</span> &#8226; <span id="works">works</span> &#8226; <span id="media">media</span> &#8226; <span id="bio">bio</span> &#8226; <span id="contact">contact</span></h2>
+		</div>
 		
 		<div id="main"></div>
 		
