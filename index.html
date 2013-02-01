@@ -9,16 +9,30 @@
 		
 		<script>
 		$(function(){
-			$("#header").load("templates/header.html div");
-			$("#footer").load("templates/footer.html div");
+			$("#header").hide( 0 );
+			$("#main").hide( 0 );
+			$("#footer").hide( 0 );
+			
+			$("#header").load("templates/header.html div", function() {
+				$("#main").load("pages/welcome.html div", function() {
+					$("#footer").load("templates/footer.html div", function() {
+					
+						$("#header").fadeIn("slow", function() {
+							$("#main").fadeIn("slow", function() {
+								$("#footer").fadeIn("fast");
+							});
+						});
+						
+					});
+				});			
+			});
 		});
 		</script>
 	</head>
 	<body>
 		<div id="header"></div>
-	
-		<h1>Hello world!</h1>
-		<p>I am in the midst of business and am working on the side at fixing my website.  Please bear with me...</p>
+		
+		<div id="main"></div>
 		
 		<div id="footer"></div>
 	</body>

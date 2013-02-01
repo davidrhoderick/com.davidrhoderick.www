@@ -1,18 +1,32 @@
 /* style.scss */
 body {
+  text-align: center;
   padding-left: 24%;
   padding-right: 24%; }
 
 h1 {
-  font-family: sans-serif;
-  font-size: 24px; }
-
-.main_title {
-  font-size: 48px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 12px; }
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  text-shadow: 2.5px 2.5px #bbbbbb;
+  letter-spacing: 8px; }
+  h1 .main_title {
+    color: #345;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 12px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-style: italic; }
 
 p {
-  font-size: 16px;
-  align: center; }
+  font-family: Arial, sans-serif;
+  font-size: 16px; }
+  p .welcome_message {
+    font-style: italic;
+    text-shadow: 1px 1px #bbbbbb; }
+
+small {
+  padding-top: 20px;
+  font: Arial;
+  font-size: 8px; }

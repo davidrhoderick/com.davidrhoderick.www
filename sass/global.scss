@@ -1,5 +1,7 @@
 /* style.scss */
 body {
+	text-align: center;
+	
 	padding: {
 		left: 24%;
 		right: 24%;
@@ -7,18 +9,38 @@ body {
 }
 
 h1 {
-	font-family: sans-serif;
-	font-size: 24px;
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	.main_title {
+		color: #345;
+		font-size: 48px;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 12px;
+		font-family: Helvetica, sans-serif, Arial;
+		font-style: italic;	
+	}
+	font-style: italic;
+	text-shadow: 2.5px 2.5px #bbb;
+	letter-spacing: 8px;
+	
 }
 
 .main_title {
-	font-size: 48px;
-	text-transform: uppercase;
-	text-align: center;
-	letter-spacing: 12px;
+	
 }
 
 p {
+	font-family: Arial, sans-serif;
+	.welcome_message {
+		font-style: italic;
+		text-shadow: 1px 1px #bbb;
+	}
 	font-size: 16px;
-	align: center;
+}
+
+small {
+	padding-top: 20px;
+	font: Arial;
+	font-size: 8px;
 }
