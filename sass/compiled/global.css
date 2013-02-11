@@ -25,6 +25,17 @@ body {
   .nav_bar span:hover {
     color: #642; }
 
+#float-left-third {
+  text-align: left;
+  float: left;
+  width: 66%;
+  margin-right: 30px; }
+
+#list-right {
+  float: right;
+  width: 33%;
+  text-align: right; }
+
 h1 {
   font-family: STHeiti, sans-serif;
   font-size: 36px;
