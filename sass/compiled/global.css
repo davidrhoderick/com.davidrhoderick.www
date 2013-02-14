@@ -25,23 +25,40 @@ body {
   .nav_bar span:hover {
     color: #642; }
 
-#float-left-third {
-  text-align: left;
-  float: left;
-  width: 66%;
-  margin-right: 30px; }
+#artiststatement {
+  font-size: 14px; }
 
-#list-right {
-  float: right;
-  width: 33%;
-  text-align: right; }
+.list-float-right h3 {
+  float: left;
+  width: 50%;
+  text-align: center; }
+.list-float-right p {
+  text-align: justify;
+  float: left;
+  margin-right: 25%;
+                  /*  not working 
+margin-left: 40px;   not working */
+  width: 50%; }
+.list-float-right #list-heading {
+  width: 30%;
+  text-align: center; }
+.list-float-right ul {
+  width: 30%;
+  text-align: right;
+  list-style-type: none; }
 
 h1 {
   font-family: STHeiti, sans-serif;
   font-size: 36px;
   text-shadow: 2.5px 2.5px #dddddd;
   letter-spacing: 8px;
-  color: #221; }
+  color: #321; }
+
+h3 {
+  font-family: STHeiti, sans-serif;
+  font-size: 28px;
+  text-shadow: 2px 2px #332211;
+  color: #ddd; }
 
 p {
   font-family: STHeiti, sans-serif;
@@ -52,7 +69,9 @@ p {
 .biography {
   text-align: justify; }
 
-small {
-  margin-top: 20px;
-  font: STHeiti, sans-serif;
-  font-size: 12px; }
+.footer {
+  width: 100%; }
+  .footer small {
+    margin-top: 20px;
+    font: STHeiti, sans-serif;
+    font-size: 12px; }
