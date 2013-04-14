@@ -37,19 +37,35 @@ body {
 	font-size: 14px;
 }
 
-.list-float-right {
-	h3 {
-		float:left;
-		width:50%;
-		text-align: center;
-	}
-	
+.two-column {
+	@extend .clearfix;
+    
+    padding: 0;
+    margin: 0 0 1.5em 0;
+    
+    width: 48%;
+    float: left;
+	margin-bottom: 0;
+	clear: none;
+    
+    &:first-child {
+   		margin-right: 4%;
+    }
+    
+    h3 {
+    	clear: both;
+    	text-align: center;
+    	
+    	&:before{
+    		display: inline;
+    		color: #000;
+    	}
+    }
+/*
 	p {
 		
 		text-align: justify;
 		float:left;
-		margin-right: 25%;/*  not working 
-		margin-left: 40px;   not working */
 		width:50%;
 	}
 	
@@ -62,7 +78,7 @@ body {
 		width: 30%;
 		text-align: right;
 		list-style-type: none;
-	}
+	}*/
 }
 
 h1 {
@@ -98,5 +114,16 @@ p {
 		margin-top: 20px;
 		font: STHeiti, sans-serif;
 		font-size: 12px;
+	}
+}
+
+@mixin clearfix() {
+	&:before, &:after {
+		content: " "; /* 1 */
+    	display: table; /* 2 */
+	}
+
+	&:after {
+		clear: both;
 	}
 }
